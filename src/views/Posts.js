@@ -28,7 +28,7 @@ const Posts = () => {
 
   useEffect(() => {
     dispatch(getPosts(id));
-  }, [id]);
+  }, [id, dispatch]);
 
   return (
     <Spin spinning={loading}>

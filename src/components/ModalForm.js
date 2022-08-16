@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Input, message, Modal } from "antd";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
