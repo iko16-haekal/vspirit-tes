@@ -32,7 +32,7 @@ const ModalForm = ({ data, visible, onClose }) => {
 
   const handleSubmit = () => {
     const payload = {
-      id: data?.id || Math.round(Math.random),
+      id: data?.id || Math.round(Math.random() * 1000),
       title,
       body: description,
     };
